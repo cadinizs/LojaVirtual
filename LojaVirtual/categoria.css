@@ -1,0 +1,60 @@
+body {
+  font-size: 100%;
+  line-height: 26px; 
+  width:1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+
+  display: flex;
+}
+
+#logo {
+  width: 100px;
+  height:100px;
+}
+
+header h1 {
+  width: 90%;
+  text-align: center;
+}
+
+header + nav {
+height: 30px;
+  padding: 20px;
+}
+
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'Sans-Serif';
+}
+
+.menuitem {
+  list-style-type: none;
+  background-color: #f1f1f1;
+  border: 1px solid #d4d4d4;
+  text-align: center;
+  border-radius: 20px;
+  margin-top;
+}
+
+a:link {
+color: tomato;
+}
+
+a:hover {
+color: darkblue;
+}
+
+a:visited {
+color: green;
+}
+
+@media (max-width: 900px) {
+  header {
+    background-color: blue;
+  }
+}
